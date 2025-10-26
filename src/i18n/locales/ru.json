@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Главная",
+    "skills": "Навыки",
+    "portfolio": "Портфолио",
+    "experience": "Опыт",
+    "contacts": "Контакты"
+  },
+  "hero": {
+    "greeting": "Привет, меня зовут",
+    "name": "Вадим Анохин",
+    "title": "Frontend Разработчик",
+    "subtitle": "Специализируюсь на создании современных веб-приложений",
+    "description": "Разрабатываю интерактивные пользовательские интерфейсы с акцентом на производительность, доступность и качественный код. Работаю с React, TypeScript и современным стеком технологий.",
+    "cta": "Связаться со мной"
+  },
+  "skills": {
+    "title": "Технические компетенции",
+    "hardSkills": "Технические навыки",
+    "softSkills": "Личные качества",
+    "hard": {
+      "html": "HTML5",
+      "css": "CSS3",
+      "sass": "SASS",
+      "javascript": "JavaScript ES6+",
+      "typescript": "TypeScript",
+      "react": "React 18",
+      "redux": "Redux",
+      "mobx": "MobX",
+      "node": "Node.js",
+      "git": "Git",
+      "github": "GitHub",
+      "tailwind": "Tailwind CSS"
+    },
+    "soft": {
+      "problemSolving": {
+        "title": "Аналитическое мышление",
+        "description": "Способность анализировать сложные задачи и находить эффективные решения"
+      },
+      "teamwork": {
+        "title": "Командная работа",
+        "description": "Опыт работы в agile-командах, эффективное взаимодействие с коллегами"
+      },
+      "communication": {
+        "title": "Коммуникация",
+        "description": "Четкое выражение мыслей, активное слушание, презентация решений"
+      },
+      "fastLearning": {
+        "title": "Быстрое обучение",
+        "description": "Быстрое освоение новых технологий и адаптация к изменениям"
+      },
+      "attention": {
+        "title": "Внимание к деталям",
+        "description": "Тщательный подход к качеству кода и пользовательскому опыту"
+      },
+      "timeManagement": {
+        "title": "Управление временем",
+        "description": "Эффективное планирование и приоритизация задач"
+      },
+      "adaptability": {
+        "title": "Адаптивность",
+        "description": "Гибкость в работе с различными проектами и технологиями"
+      },
+      "responsibility": {
+        "title": "Ответственность",
+        "description": "Выполнение обязательств и соблюдение сроков"
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Портфолио",
+    "freelance": {
+      "title": "Фриланс проекты",
+      "period": "2024 — Настоящее время",
+      "description": "Разработка лендингов и многостраничных сайтов для различных компаний. Фокус на современный дизайн, производительность и SEO оптимизацию.",
+      "viewProject": "Смотреть проект",
+      "github": "GitHub"
+    },
+    "cryptox": {
+      "title": "CryptoX Messenger",
+      "period": "Сентябрь 2025 — Настоящее время",
+      "description": "Full-stack мессенджер с end-to-end шифрованием. Разработка архитектуры, backend на Node.js + PostgreSQL, frontend на React с TypeScript, desktop версия на Electron.",
+      "status": "В разработке",
+      "viewProject": "Смотреть проект",
+      "github": "GitHub"
+    }
+  },
+  "experience": {
+    "title": "Опыт",
+    "education": {
+      "period": "2023 — Настоящее время",
+      "title": "Образование",
+      "company": "НГУЭУ (Новосибирск)",
+      "position": "Студент факультета информационных технологий",
+      "description": "Изучение веб-разработки, алгоритмов, баз данных и современных фреймворков. Активное участие в хакатонах и студенческих проектах. Окончание: июнь 2026"
+    },
+    "freelance": {
+      "period": "2024 — Настоящее время",
+      "title": "Freelance Frontend Developer",
+      "company": "Удаленная работа",
+      "description": "Разработка лендингов и корпоративных сайтов под ключ. Работа с React, TypeScript, адаптивная верстка, интеграция с CMS, SEO оптимизация. Более 10 успешно завершенных проектов."
+    },
+    "cryptox": {
+      "period": "Сентябрь 2025 — Настоящее время",
+      "title": "Full-Stack Developer",
+      "company": "CryptoX Messenger (личный проект)",
+      "description": "Проектирование и разработка защищенного мессенджера с нуля. Backend: Node.js, Fastify, PostgreSQL, Redis, WebSocket. Frontend: React, TypeScript, Zustand. Реализация E2E шифрования через Signal Protocol."
+    }
+  },
+  "contacts": {
+    "title": "Контакты",
+    "heading": "Есть вопросы или предложения?",
+    "subheading": "Открыт к новым проектам и сотрудничеству",
+    "cta": "Свяжитесь со мной!",
+    "footer": "Vadim Anokhin"
+  }
+}

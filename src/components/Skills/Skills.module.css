@@ -1,0 +1,117 @@
+.skills {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-2xl);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.columnTitle {
+  font-size: var(--font-size-2xl);
+  text-align: center;
+  padding: var(--spacing-md);
+  background: linear-gradient(135deg, var(--accent), #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-lg);
+  background: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-convex);
+  transition: all var(--transition-slow);
+  cursor: pointer;
+}
+
+.skillCard:hover {
+  box-shadow: var(--shadow-concave);
+}
+
+.skillHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.bullet {
+  font-size: 1.5rem;
+  color: var(--accent);
+  font-weight: bold;
+  min-width: 20px;
+}
+
+.skillIcon {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+}
+
+.skillTitle {
+  font-size: var(--font-size-lg);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.skillDescription {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+  padding-left: calc(20px + var(--spacing-md) + 40px + var(--spacing-md));
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+  }
+
+  .skillCard {
+    padding: var(--spacing-md);
+  }
+
+  .skillIcon {
+    font-size: 1.5rem;
+    min-width: 30px;
+  }
+
+  .skillTitle {
+    font-size: var(--font-size-base);
+  }
+
+  .skillDescription {
+    padding-left: 0;
+    margin-top: var(--spacing-xs);
+  }
+}

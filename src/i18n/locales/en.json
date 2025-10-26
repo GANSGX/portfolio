@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "experience": "Experience",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "greeting": "Hi, my name is",
+    "name": "Vadim Anokhin",
+    "title": "Frontend Developer",
+    "subtitle": "Specializing in modern web applications",
+    "description": "Building interactive user interfaces with focus on performance, accessibility, and clean code. Working with React, TypeScript, and modern tech stack.",
+    "cta": "Get in touch"
+  },
+  "skills": {
+    "title": "Technical Competencies",
+    "hardSkills": "Technical Skills",
+    "softSkills": "Personal Qualities",
+    "hard": {
+      "html": "HTML5",
+      "css": "CSS3",
+      "sass": "SASS",
+      "javascript": "JavaScript ES6+",
+      "typescript": "TypeScript",
+      "react": "React 18",
+      "redux": "Redux",
+      "mobx": "MobX",
+      "node": "Node.js",
+      "git": "Git",
+      "github": "GitHub",
+      "tailwind": "Tailwind CSS"
+    },
+    "soft": {
+      "problemSolving": {
+        "title": "Analytical Thinking",
+        "description": "Ability to analyze complex tasks and find effective solutions"
+      },
+      "teamwork": {
+        "title": "Teamwork",
+        "description": "Experience in agile teams, effective collaboration with colleagues"
+      },
+      "communication": {
+        "title": "Communication",
+        "description": "Clear expression of ideas, active listening, presenting solutions"
+      },
+      "fastLearning": {
+        "title": "Fast Learning",
+        "description": "Quick adoption of new technologies and adaptation to changes"
+      },
+      "attention": {
+        "title": "Attention to Detail",
+        "description": "Thorough approach to code quality and user experience"
+      },
+      "timeManagement": {
+        "title": "Time Management",
+        "description": "Effective planning and task prioritization"
+      },
+      "adaptability": {
+        "title": "Adaptability",
+        "description": "Flexibility in working with various projects and technologies"
+      },
+      "responsibility": {
+        "title": "Responsibility",
+        "description": "Meeting commitments and deadlines"
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "freelance": {
+      "title": "Freelance Projects",
+      "period": "2024 — Present",
+      "description": "Development of landing pages and multi-page websites for various companies. Focus on modern design, performance, and SEO optimization.",
+      "viewProject": "View Project",
+      "github": "GitHub"
+    },
+    "cryptox": {
+      "title": "CryptoX Messenger",
+      "period": "September 2025 — Present",
+      "description": "Full-stack messenger with end-to-end encryption. Architecture development, backend on Node.js + PostgreSQL, frontend on React with TypeScript, desktop version on Electron.",
+      "status": "In Development",
+      "viewProject": "View Project",
+      "github": "GitHub"
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "education": {
+      "period": "2023 — Present",
+      "title": "Education",
+      "company": "NGUEU (Novosibirsk)",
+      "position": "IT Faculty Student",
+      "description": "Studying web development, algorithms, databases, and modern frameworks. Active participation in hackathons and student projects. Graduation: June 2026"
+    },
+    "freelance": {
+      "period": "2024 — Present",
+      "title": "Freelance Frontend Developer",
+      "company": "Remote Work",
+      "description": "Developing landing pages and corporate websites turnkey. Working with React, TypeScript, responsive design, CMS integration, SEO optimization. Over 10 successfully completed projects."
+    },
+    "cryptox": {
+      "period": "September 2025 — Present",
+      "title": "Full-Stack Developer",
+      "company": "CryptoX Messenger (personal project)",
+      "description": "Designing and developing secure messenger from scratch. Backend: Node.js, Fastify, PostgreSQL, Redis, WebSocket. Frontend: React, TypeScript, Zustand. Implementing E2E encryption via Signal Protocol."
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "heading": "Have questions or proposals?",
+    "subheading": "Open to new projects and collaborations",
+    "cta": "Get in touch!",
+    "footer": "Vadim Anokhin"
+  }
+}

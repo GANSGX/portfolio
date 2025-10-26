@@ -1,0 +1,76 @@
+:root {
+  /* Colors - Dark Theme */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #242424;
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --accent: #646cff;
+  --accent-hover: #535bf2;
+
+  /* Neumorphism Shadows - DARKER */
+  --shadow-convex: 
+    6px 6px 12px rgba(0, 0, 0, 0.7),
+    -6px -6px 12px rgba(255, 255, 255, 0.02);
+  
+  --shadow-convex-hover: 
+    8px 8px 16px rgba(0, 0, 0, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.025);
+
+  --shadow-concave: 
+    inset 4px 4px 8px rgba(0, 0, 0, 0.7),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.02);
+
+  --shadow-concave-hover: 
+    inset 6px 6px 12px rgba(0, 0, 0, 0.8),
+    inset -6px -6px 12px rgba(255, 255, 255, 0.025);
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 50%;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.6s ease;
+
+  /* Typography */
+  --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 3rem;
+  --font-size-4xl: 4rem;
+
+  /* Original Tech Colors */
+  --color-html: #e34c26;
+  --color-css: #264de4;
+  --color-sass: #cc6699;
+  --color-js: #f7df1e;
+  --color-ts: #3178c6;
+  --color-react: #61dafb;
+  --color-redux: #764abc;
+  --color-mobx: #ff9955;
+  --color-node: #339933;
+  --color-git: #f05032;
+  --color-tailwind: #06b6d4;
+  --color-pnpm: #f9ad00;
+  --color-docker: #2496ed;
+  --color-vite: #646cff;
+  --color-socketio: #010101;
+  --color-postgres: #336791;
+  --color-redis: #dc382d;
+  --color-electron: #47848f;
+}
